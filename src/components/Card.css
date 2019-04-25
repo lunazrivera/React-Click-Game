@@ -1,0 +1,33 @@
+.card {
+     background: #fff;
+     border-radius: 2px;
+     height: 250px;
+     margin: 1rem;
+     position: relative;
+     width: 325px;
+     
+     text-align: left;
+   }
+   
+.card:hover {
+     transform: scale(1.2);
+     
+     box-shadow: 0 3px 6px #000, 0 3px 6px #999;
+}
+
+   .card > .img-container {
+     height: 100%;
+     overflow: hidden;
+     text-align: center;
+     background:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2fb2821a-1406-4a1d-9b04-6668f278e944/d8594wx-7e7c2d69-c3ae-4f6f-b4c8-5bf8dab494d1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJmYjI4MjFhLTE0MDYtNGExZC05YjA0LTY2NjhmMjc4ZTk0NFwvZDg1OTR3eC03ZTdjMmQ2OS1jM2FlLTRmNmYtYjRjOC01YmY4ZGFiNDk0ZDEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.cT4EjbXScyCiEEQCQSxxsugpAWBzp_rX6TGXzkvxhlA");
+   }
+   .card > .img-container > img {
+     width: 60%
+   }
+   
+   .card > .content {
+     padding-left: 1rem;
+     padding-right: 1rem;
+     font-size: 15px;
+   }
+   

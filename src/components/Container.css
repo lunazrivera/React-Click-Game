@@ -1,0 +1,12 @@
+.container {
+     background-color: #ECEFF1;
+     background: url("http://tatesgaming.com/wp-content/uploads/2018/04/International_Poke%CC%81mon_logo.svg_.png") no-repeat center;
+     padding-top: 50px;
+     display: flex;
+     height: 100%;
+     flex-flow: row wrap;
+     padding: 20px;
+     justify-content: space-around;
+     align-content: flex-start;
+     overflow: auto;
+}
